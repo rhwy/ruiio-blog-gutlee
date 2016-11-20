@@ -1,0 +1,16 @@
+﻿@Master['pure-master']
+<!-- A wrapper for all the blog posts -->
+@Section['Content']
+<div class="posts">
+    <header class="pure-group">
+        <h1 class="content-subhead">Recent Posts</h1>
+        <!--<div class="">@Partial['tags.html', Model.Tags]</div>-->
+    </header>
+    
+    @Each.Posts
+        <h2>@Current.Title</h2>
+        <div>@Current.Abstract</div>
+        <p><a class="pure-button pure-button-primary" href="/Blog/@Current.Id">Read Post</a></p>
+    @EndEach
+</div>
+@EndSection

@@ -1,0 +1,11 @@
+{
+	"title":"Program As you Learn to play a song",
+	"author":"Rui",
+	"date":"2016-01-26",
+	"abstract":"If you want to learn to play a song in a good and durable way, you need to follow some principles. We can apply these principles in programming too in order to produce better and more durable code, let's see how to put the pieces together!",
+	"links":[
+		{"name":"Rui blog","url":"http://www.rui.fr"},
+		{"name":"NCrafts","url":"http://ncrafts.io"}
+	],
+	"tags": ["programming","craftsmanship","thoughts"]
+}
